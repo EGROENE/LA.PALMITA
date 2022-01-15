@@ -269,6 +269,7 @@
     .sect4 header {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     .sect4 header a {
