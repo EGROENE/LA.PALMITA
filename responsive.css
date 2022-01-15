@@ -1,0 +1,143 @@
+/* START STYLING FOR max-width: 768px */
+@media all and (max-width: 768px) {
+    .sect1-img i {
+        font-size: 10px;
+    }
+    
+    .sect1-img h2 {
+        font-size: 15px;
+    }
+
+    .sect1-card1,
+    .sect1-card2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .sect2 {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .gram-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* END STYLING FOR max-width: 768px */
+
+/* START STYLING FOR max-width: 425px */
+@media all and (max-width: 425px) {
+    .sect1-img {
+        padding: 30px 5px;
+    }
+
+    .sect1-img h1 {
+        font-size: 30px;
+    }
+
+    .sect1-img h1 span img {
+        width: 36px;
+        max-width: 36px;
+    }
+
+    .sect1-img h2 {
+        text-align: center;
+    }
+
+    .sect1-card1,
+    .sect1-card2 {
+        padding: 5px;
+        font-size: 20px;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .sect2-card {
+        padding: 10px;
+        line-height: 20px;
+    }
+
+    .sect2-card p {
+        font-size: 15px;
+    }
+
+    .special-item {
+        display: flex;  
+        flex-direction: column; 
+    }
+
+    .sect3-grid-container div:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    .sect3-grid-container div:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .special-item-description-right,
+    .special-item-description-left {
+        text-align: center;
+    }
+
+    .sect4 header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sect4 header a {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .gram-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* END STYLING FOR max-width: 425px */
+
+/* START STYLING FOR max-width: 375px */
+@media all and (max-width: 375px) {
+    .sect1 {
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+
+    .sect1-img h1 {
+        font-size: 20px;
+    }
+
+    .sect3-header {
+        font-size: 35px;
+    }
+}
+/* END STYLING FOR max-width: 375px */
+
+/* START STYLING FOR max-width: 320px */
+@media all and (max-width: 320px) {
+    .sect2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sect3-header {
+        font-size: 30px;
+    }
+
+    .sect4 header {
+        text-align: center;
+    }
+
+    .gram-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+/* END STYLING FOR max-width: 320px */
