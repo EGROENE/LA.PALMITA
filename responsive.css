@@ -1,3 +1,188 @@
+/* START min-width: 2560px */
+@media (min-width: 2560px) {
+    .sect1-img h1 {
+        font-size: 175px;
+    }
+
+    .sect1-img img {
+        width: 150px;
+    }
+
+    .sect1-img h2 {
+        font-size: 75px;
+    }
+
+    .sect1-img i {
+        font-size: 35px;
+    }
+
+    .sect1-card1 header,
+    .sect1-card2 header {
+        font-size: 130px;
+    }
+
+    .sect2-card img {
+        width: 160px;
+    }
+
+    .sect2-card header {
+        font-size: 100px;
+        margin: 25px 0;
+        border-bottom: 10px dashed white;
+        padding: 60px 0;
+    }
+
+    .sect2-card p {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .sect3-header {
+        font-size: 135px;
+        background: var(--black-trans-bg);
+        color: var(--gold-text);
+        padding: 15px;
+    }
+
+    .special-item-description-right, 
+    .special-item-description-left {
+        background-color: var(--black-trans-bg);
+        color: white;
+        line-height: 35px;
+        padding: 95px;
+    }
+
+    .special-item-header {
+        font-size: 120px;
+        color: white;
+        padding: 0;
+    }
+
+    .special-item-info {
+        font-size: 65px;
+        line-height: 100px;
+        margin: 65px 0;
+    }
+
+    .special-item-price {
+        font-size: 150px;
+    }   
+    
+    .sect4 header a {
+        font-size: 100px;
+    }
+
+    .sect4 header::before,
+    .sect4 header::after {
+        height: 75px;
+    }
+
+    .gram-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 55px;
+    }
+
+    footer p {
+        font-size: 40px;
+    }
+}
+/* END min-width: 2560px */
+
+/* START min-width: 1440px and max-width: 2559px */
+@media (min-width: 1440px) and (max-width: 2559px) {
+    .sect1-img h1 {
+        font-size: 84px;
+    }
+
+    .sect1-img img {
+        width: 75px;
+    }
+
+    .sect1-img h2 {
+        font-size: 50px;
+    }
+
+    .sect1-card1 header,
+    .sect1-card2 header {
+        font-size: 75px;
+    }
+
+    .sect2-card img {
+        width: 85px;
+    }
+
+    .sect2-card header {
+        font-size: 50px;
+        padding-bottom: 15px;
+        border-bottom: 5px dashed white;
+    }
+
+    .sect2-card p {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .sect3-header {
+        font-size: 80px;
+    }
+
+    .special-item img {
+        width: 700px;
+    }
+
+    .special-item-header {
+        font-size: 75px;
+        color: white;
+        padding: 0;
+    }
+
+    .special-item-description-right,
+    .special-item-description-left {
+        font-size: 35px;
+        margin: 50px 0;
+        line-height: 45px;
+    }
+
+    .special-item-description-right p,
+    .special-item-description-left p {
+        margin: 25px 0;
+        line-height: 55px;
+    }
+
+    .special-item-price {
+        font-family: var(--header-font);
+        font-size: 90px;
+        margin-top: 10px;
+    }
+
+    .sect4 header a {
+        color: var(--gold-text);
+        font-size: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sect4 header::before,
+    .sect4 header::after {
+        display: block;
+        content: "";
+        height: 50px;
+        width: 100%;
+        background: linear-gradient(to right, green,white, red);
+    }
+
+    .gram-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    footer p {
+        font-size: 25px;
+    }
+}
+/* END min-width: 1440px and max-width: 2559px */
+
 /* START STYLING FOR max-width: 768px */
 @media all and (max-width: 768px) {
     .sect1-img i {
